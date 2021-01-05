@@ -1,0 +1,38 @@
+<div class="nav-bar">
+    <div class="container">
+        <div class="nav-bar__content">
+
+        <a class="nav-bar__logo" href="/">
+            <img src="/assets/images/logo.svg" class="nav-bar__logo-image" alt="">
+        </a>
+        <div class="nav-bar__nav">
+
+                <ul class="nav">
+                    {% for entry in site.data.navigation %}
+                    {% assign sublinks = entry.sublinks %}
+                    {% if sublinks %}
+                    <li>
+                    <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+                    <ul>
+                        {% for sublink in sublinks %}
+                        <li><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                    </li>
+                    {% else %}
+                    <li><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+
+        </div>
+        <div>
+            <button class="button">
+                Sign up
+            </button>
+        </div>
+
+
+        </div>
+    </div>
+</div>
