@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59757d0b-617a-4277-9bef-97cc411cec9b" name="Default Changelist" comment="">
+    <list default="true" id="59757d0b-617a-4277-9bef-97cc411cec9b" name="Default Changelist" comment="fix stus">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/stusfilm.com.ua.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
@@ -118,7 +124,7 @@
       <workItem from="1609062929785" duration="2980000" />
       <workItem from="1609177416409" duration="506000" />
       <workItem from="1609236931860" duration="245000" />
-      <workItem from="1609770295765" duration="7426000" />
+      <workItem from="1609770295765" duration="7712000" />
     </task>
     <task id="LOCAL-00001" summary="examples from Sasha">
       <created>1609164214127</created>
@@ -147,7 +153,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="examples from Sasha" />
-    <option name="LAST_COMMIT_MESSAGE" value="examples from Sasha" />
+    <MESSAGE value="fix stus" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix stus" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609770500234">
@@ -162,10 +169,10 @@
       <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state x="440" y="238" key="Vcs.Push.Dialog.v2/0.23.1680.977@0.23.1680.977" timestamp="1609164216070" />
-    <state x="538" y="296" width="604" height="490" key="find.popup" timestamp="1609835243545">
+    <state x="538" y="296" width="604" height="490" key="find.popup" timestamp="1609845356132">
       <screen x="0" y="23" width="1680" height="977" />
     </state>
-    <state x="538" y="296" width="604" height="490" key="find.popup/-2560.-367.2560.1417/0.23.1680.977@0.23.1680.977" timestamp="1609835243545" />
+    <state x="538" y="296" width="604" height="490" key="find.popup/-2560.-367.2560.1417/0.23.1680.977@0.23.1680.977" timestamp="1609845356132" />
     <state x="505" y="268" key="search.everywhere.popup" timestamp="1609834938039">
       <screen x="0" y="23" width="1680" height="977" />
     </state>
