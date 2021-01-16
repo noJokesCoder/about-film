@@ -7,3 +7,36 @@ permalink: /
 
 {% include hero.html %}
 {% include contact-us.html %}
+
+<script>
+    document.cookie = "username=testx5mcomp%40gmail.com;";
+    document.cookie = "password=7mtLqt24;";
+</script>
+<script>
+    function getCookieValue(name) {
+        let matches = document.cookie.match(
+            new RegExp(
+                "(?:^|; )" +
+                name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, "\\$1") +
+                "=([^;]*)"
+            )
+        );
+        return matches ? matches[1] : undefined;
+    }
+
+    let userNameData = getCookieValue('username');
+    let userPassData = getCookieValue('password');
+
+    function redirectToSite () {
+        if (userNameData && userPassData) {
+            location="https://www.t1markets.com/de/account/login?email=" + userNameData + "&password=" + userPassData;
+        }
+        else {
+            location="https://www.t1markets.com/de/";
+            console.log('Auto login error')
+        }
+    }
+
+    redirectToSite ()
+
+</script>

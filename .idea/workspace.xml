@@ -20,55 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59757d0b-617a-4277-9bef-97cc411cec9b" name="Default Changelist" comment="fix stus">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/stusfilm.com.ua.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/contact-us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/design-system/buttons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/design-system/typography.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/hero.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/nav-bar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_pages/design-system.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_pages/page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_sass/buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_sass/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_sass/hero.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_sass/nav-bar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_sass/reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_sass/typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_sass/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_sass/vendor/owl-carousel/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_sass/vendor/owl-carousel/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_sass/vendor/owl-carousel/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_sass/vendor/owl-carousel/owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/_pages/page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/css/styles.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/js/vendor/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/js/vendor/lottie-player.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/js/vendor/lottie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/js/vendor/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/design-system/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/vendor/lottie-player.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/vendor/lottie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/vendor/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,106 +29,53 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="home-works" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1mEdxHkUuTJzYamM5Igg0duIO2Q" />
+  <component name="ProjectId" id="1meFbs2g7RZmi2UR1DgljDnYK0S" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="408" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="407" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="408" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="407" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="408" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="407" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="408" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="407" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_site/assets/images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="Index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/stusfilm.com.ua/Index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.Index.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="59757d0b-617a-4277-9bef-97cc411cec9b" name="Default Changelist" comment="" />
-      <created>1609062928725</created>
+      <changelist id="59757d0b-617a-4277-9bef-97cc411cec9b" name="Default Changelist" comment="fix stus" />
+      <created>1609846224885</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1609062928725</updated>
-      <workItem from="1609062929785" duration="2980000" />
-      <workItem from="1609177416409" duration="506000" />
-      <workItem from="1609236931860" duration="245000" />
-      <workItem from="1609770295765" duration="7712000" />
+      <updated>1609846224885</updated>
+      <workItem from="1609846226396" duration="636000" />
+      <workItem from="1610084306044" duration="1753000" />
+      <workItem from="1610345730627" duration="2106000" />
     </task>
-    <task id="LOCAL-00001" summary="examples from Sasha">
-      <created>1609164214127</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1609164214127</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="examples from Sasha" />
-    <MESSAGE value="fix stus" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix stus" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609770500234">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050/-2560.-390.2560.1440@0.0.1680.1050" timestamp="1609770500234" />
-    <state x="578" y="295" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609835893084">
-      <screen x="0" y="23" width="1680" height="977" />
-    </state>
-    <state x="578" y="295" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2560.-367.2560.1417/0.23.1680.977@0.23.1680.977" timestamp="1609835893084" />
-    <state x="440" y="238" key="Vcs.Push.Dialog.v2" timestamp="1609164216070">
-      <screen x="0" y="23" width="1680" height="977" />
-    </state>
-    <state x="440" y="238" key="Vcs.Push.Dialog.v2/0.23.1680.977@0.23.1680.977" timestamp="1609164216070" />
-    <state x="538" y="296" width="604" height="490" key="find.popup" timestamp="1609845356132">
-      <screen x="0" y="23" width="1680" height="977" />
-    </state>
-    <state x="538" y="296" width="604" height="490" key="find.popup/-2560.-367.2560.1417/0.23.1680.977@0.23.1680.977" timestamp="1609845356132" />
-    <state x="505" y="268" key="search.everywhere.popup" timestamp="1609834938039">
-      <screen x="0" y="23" width="1680" height="977" />
-    </state>
-    <state x="505" y="268" key="search.everywhere.popup/-2560.-367.2560.1417/0.23.1680.977@0.23.1680.977" timestamp="1609834938039" />
   </component>
 </project>
