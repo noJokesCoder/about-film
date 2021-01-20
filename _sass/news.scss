@@ -1,0 +1,42 @@
+.news {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.column {
+    float: left;
+    width: 560px;
+    }
+
+     .team:after {
+    content: "";
+    display: table;
+    clear: both;
+    } 
+.blog {
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #CD0000;
+    height: 45px;
+    width: 140px;
+    font-size: 18px;
+    
+
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 370px;
+    border-style: none;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.blog:hover {
+    cursor: pointer;
+    background-color: green;
+    }
+a {
+    text-decoration: none;
+}

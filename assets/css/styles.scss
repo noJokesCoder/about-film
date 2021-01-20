@@ -1,14 +1,13 @@
 ---
 ---
-
-@import 'reset';
-@import 'vendor/owl-carousel/owl.carousel';
-@import 'vendor/owl-carousel/owl.theme.default';
-
 @import 'variables';
-@import 'typography';
 @import 'main';
-@import 'buttons';
-@import 'nav-bar';
-@import 'footer';
+@import 'typography';
 @import 'hero';
+@import 'navigation';
+@import 'about-film';
+@import 'buttons';
+@import 'actors';
+@import 'team';
+@import 'news';
+@import 'footer';

@@ -1,0 +1,29 @@
+.about-film {
+    display: flex;
+    margin: 100px 0;
+}
+.about-film__headline {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.about-film__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.about-film__col-text {
+    width: 60%;
+    text-align: left;
+}
+
+.about-film__col-image {
+ width: 30%;
+}
+
+ img {
+     max-width: 100%;
+ }

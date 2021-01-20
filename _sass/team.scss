@@ -1,0 +1,36 @@
+
+/* Team section */
+
+.team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: linear-gradient(180deg, #000000 -179.35%, rgba(0, 0, 0, 0) 100%), url(assets/images/valeriia-bugaiova.png);
+    width: 100%;
+    height: 400px;
+    margin-top: 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.the-person {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.proffession {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+.content-column {
+    width: 500px;
+}

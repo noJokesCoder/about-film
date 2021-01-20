@@ -1,13 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Roboto&display=swap');
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+body {
+    background-color: white;
+    margin: 0;
+    color: $colorPrimary;
+}
+.stus-face {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: calc(100vh - 175px);
+  min-height: 500px;
+  max-height: 900px;
+  background-image: url(/assets/images/hero.jpg);
+  background-position: bottom center;
   box-sizing: border-box;
 }
-
-body {
-  font-family: sans-serif;
-}
-
-.container {
-  max-width: 1800px;
-  margin: 0 auto;
-}
-

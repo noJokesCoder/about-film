@@ -1,0 +1,439 @@
+
+/* Hero's face section */
+
+/* Hero's face section Ends here*/
+
+/* Navigation and buttons section */
+
+
+
+
+#Kino-logo {
+    position: static;
+    width: 299.41px;
+    height: 170.5px;
+
+    align-self: flex-end;
+}
+/* Navigation and buttons section  ends here */
+
+/* Pro Film section */
+
+h2 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-size: 50px;
+    color: rgba(205, 0, 0, 1);
+    
+    margin: 0 auto;
+}
+h3 {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+
+    color: #FFFFFF;
+}
+.pro-film {
+    display: inline-block;
+    /*width: 680px;*/
+    height: 360px;
+    /*margin-left: 370px;*/
+    
+    margin-top: 1255px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    color: #393939;
+}
+/* Pro Film section Ends here */
+
+/*Actor 1 section */
+
+.actor1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+}
+.actor1__image {
+    border-radius: 50%;
+    max-width: 120px;
+    max-height: 120px;
+}
+/*Actor 1 section Ends */
+
+/*Actor 2 section */
+
+.actor2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+}
+.actor2__image {
+    border-radius: 50%;
+    max-width: 120px;
+    max-height: 120px;
+}
+/*Actor 2 section Ends */
+
+/*Actor 3 section */
+
+.actor3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+}
+.actor3__image {
+    border-radius: 50%;
+    max-width: 120px;
+    max-height: 120px;
+}
+/*Actor 3 section Ends */
+
+/*Actor 4 section */
+
+.actor4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+}
+.actor4__image {
+    border-radius: 50%;
+    max-width: 120px;
+    max-height: 120px;
+}
+/*Actor 4 section Ends */
+
+/*Actor 5 section */
+
+.actor5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+}
+.actor5__image {
+    border-radius: 50%;
+    max-width: 120px;
+    max-height: 120px;
+}
+/*Actor 5 section Ends */
+
+/*Actor 6 section */
+
+.actor6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+}
+.actor6__image {
+    border-radius: 50%;
+    max-width: 120px;
+    max-height: 120px;
+}
+/*Actor 6 section Ends */
+
+/*Actor 7 section */
+
+.actor7 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+}
+.actor7__image {
+    border-radius: 50%;
+    max-width: 120px;
+    max-height: 120px;
+}
+/*Actor 7 section Ends */
+
+/*Actor 8 section */
+
+.actor8 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+}
+.actor8__image {
+    border-radius: 50%;
+    max-width: 120px;
+    max-height: 120px;
+}
+/*Actor 8 section Ends */
+
+/* Actors' names section */
+
+.actors {
+    display: block;
+    background: linear-gradient(180deg, #000000 -179.35%, rgba(0, 0, 0, 0) 100%), url(Images/valeriia-bugaiova.png);
+    background-position: fixed;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
+}
+.actors__card {
+    display: flex;
+    background: red;
+}
+
+.actors__card-col-content {
+    width: 60%;
+    text-align: left;
+}
+.actors__card-col-image {
+    width: 30%;
+   
+}
+
+.actors p {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #CD0000;
+
+    margin-left: 370px;
+
+}
+/* Actors' names section Ends here */
+
+/* Team section */
+
+.team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*background: linear-gradient(180deg, #000000 -179.35%, rgba(0, 0, 0, 0) 100%), url(Images/valeriia-bugaiova.png);*/
+    width: 80%;
+    height: 400px;
+    margin-top: 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.content-column #the-person {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.content-column #proffession {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+.content-column {
+    width: 500px;
+    }
+/* Team section ends here*/
+
+/* News section */
+
+.news {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.column {
+    float: left;
+    width: 560px;
+    }
+
+     .team:after {
+    content: "";
+    display: table;
+    clear: both;
+    } 
+#blog {
+    display: inline;
+    color: #FFFFFF;
+    background-color: #CD0000;
+    height: 45px;
+    width: 140px;
+    font-size: 18px;
+    
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 370px;
+    border-style: none;
+    border-radius: 5px;
+}
+/* News section Ends here */
+
+#button1, #button2, #Blog:hover {
+    cursor: pointer;
+    }
+
+    ul {
+    list-style-type: none;
+}
+
+/* Footer section */
+
+footer {
+    position: absolute;
+    border: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 190px;
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    background: #000000;
+}
+footer h3 {
+    text-align: left;
+    margin-left: 15%;
+}
+#email {
+    text-align: left;
+    margin-left: 15%;
+}
+footer p {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: lowercase;
+    text-align: center;
+    
+    color: #FFFFFF;
+    padding-top: 35px;
+}
+.about-film {
+    display: flex;
+    margin: 100px 0;
+}
+.about-film__headline {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.about-film__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    
+}
+
+.about-film__col-text {
+    width: 60%;
+    text-align: left;
+}
+.about-film__col-image {
+ width: 30%;
+}
+ img {
+     max-width: 100%;
+ }
+
+/* Footer section */
+
+/* #button1 {
+    position: unset;
+    width: 220px;
+    height: 54px;
+    margin-left: 618px;
+    top: 1140px;
+    border: 4px solid #FF0000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #FF0000;
+
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+}
+*/
+
+/* #button2 {
+    position: unset;
+    width: 399px;
+    height: 54px;
+    margin-left: 903px;
+    top: 1140px;
+    border: 4px solid #FF0000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #FF0000;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: 0.03em;    
+}
+*/
+
+/* #Kino-logo {
+    position: static;
+    width: 299.41px;
+    height: 170.5px;
+    left: 1600px;
+    top: 1140px;
+}
+h2 {
+    font-family: Josefin Sans;
+    font-style: normal;
+    color: rgba(205, 0, 0, 1);
+    box-sizing: border-box;
+}
+.ProFilm {
+    display: inline;
+    width: 680px;
+    height: 360px;
+    margin-left: 370px;
+    margin-top: 1475px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    color: #393939;
+}
+.Actors {
+    display: block;
+    width: 1920px;
+    height: 1280.16px;
+    left: 1920px;
+    top: 3225.16px;
+    background-image: url(Images/valeriia-bugaiova.png);
+}
+*/

@@ -1,0 +1,37 @@
+/* Actors' names section */
+
+.actors {
+    display: block;
+    background: linear-gradient(180deg, #000000 -179.35%, rgba(0, 0, 0, 0) 100%), url(assets/images/valeriia-bugaiova.png);
+    background-position: fixed;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
+}
+.actors__card {
+    display: flex;
+    
+}
+
+.actors__card-col-content {
+    width: 60%;
+    text-align: left;
+}
+
+.actors__card-col-image {
+ width: 30%;
+}
+
+.actors__card-image {
+    border-radius: 50%;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.actors p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #CD0000;
+    margin-left: 370px;
+}
