@@ -27,16 +27,16 @@
 
     margin-top: 35px;
     margin-bottom: 20px;
-    margin-left: 370px;
+    margin-left: 350px;
     border-style: none;
     border-radius: 5px;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
+    text-decoration: none;
+    line-height: 45px;
 }
 .blog:hover {
     cursor: pointer;
     background-color: green;
     }
-a {
-    text-decoration: none;
-}
+    
