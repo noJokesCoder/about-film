@@ -5,12 +5,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background: linear-gradient(180deg, #000000 -179.35%, rgba(0, 0, 0, 0) 100%), url(assets/images/valeriia-bugaiova.png);
+    background: linear-gradient(180deg, #000000 -179.35%, rgba(0, 0, 0, 0) 100%), url(/images/valeriia-bugaiova.png);
     width: 100%;
     height: 400px;
     margin-top: 0px;
     margin: auto;
     text-align: center;
+}
+.team__header {
+    font-family: 'Josefin Sans';
+    font-size: 50px;
+    font-weight: 600;
+    color: #CD0000;
+    padding: 20px;
 }
 
 .the-person {
@@ -19,6 +26,7 @@
     font-weight: 600;
     font-size: 20px;
     text-transform: uppercase;
+    list-style: none;
 
     color: #FFFFFF;
 }
@@ -28,6 +36,7 @@
     font-weight: 500;
     font-size: 20px;
     text-transform: uppercase;
+    list-style: none;
     
     color: #FFFFFF;
 }

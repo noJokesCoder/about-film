@@ -16,6 +16,20 @@
     display: table;
     clear: both;
     } 
+.news__header {
+    font-family: 'Josefin Sans';
+    font-size: 50px;
+    font-weight: 600;
+    color: #CD0000;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.column__header {
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    padding: 10px 0;
+} 
 .blog {
     display: inline-block;
     color: #FFFFFF;
@@ -39,4 +53,3 @@
     cursor: pointer;
     background-color: green;
     }
-    

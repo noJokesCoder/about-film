@@ -2,10 +2,11 @@
 
 .actors {
     display: block;
-    background: linear-gradient(180deg, #000000 -179.35%, rgba(0, 0, 0, 0) 100%), url(assets/images/valeriia-bugaiova.png);
+    background: linear-gradient(180deg, #000000 -179.35%, rgba(0, 0, 0, 0) 100%), url(/images/valeriia-bugaiova.png);
     background-position: fixed;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
 }
+
 .actors__card {
     display: flex;
     
@@ -34,4 +35,17 @@
     line-height: 20px;
     color: #CD0000;
     margin-left: 370px;
+}
+
+.actors__headline {
+    font-family: 'Josefin Sans';
+    font-size: 50px;
+    font-weight: 600;
+    color: #CD0000;
+    padding: 20px;
+}
+.actors__card-col-content > h3 {
+    font-family: 'Josefin Sans';
+    font-size: 30px;
+    color:  #FFFFFF;   
 }
