@@ -8,7 +8,7 @@
 }
 .column {
     float: left;
-    width: 560px;
+    width: 500px;
     }
 
      .team:after {
@@ -16,20 +16,40 @@
     display: table;
     clear: both;
     } 
-.news__header {
+.container__header {
     font-family: 'Josefin Sans';
     font-size: 50px;
     font-weight: 600;
     color: #CD0000;
     padding: 20px;
     text-transform: uppercase;
+    text-align: left;
 }
 
 .column__header {
     font-family: 'Josefin Sans';
     font-size: 20px;
     padding: 10px 0;
+    max-width: 400px;
+    margin-left: 50px;
 } 
+
+.column__paragraph {
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-align: left;
+    max-width: 400px;
+    margin-left: 50px;
+}
+
+.column__link {
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-align: left;
+    margin-left: 50px;
+    padding: 20px 0;
+}
+
 .blog {
     display: inline-block;
     color: #FFFFFF;
