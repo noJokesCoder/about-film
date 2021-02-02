@@ -18,37 +18,34 @@
     } 
 .container__header {
     font-family: 'Josefin Sans';
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 600;
     color: #CD0000;
-    padding: 20px 0px;
+    padding: 110px 0px 70px 0;
     text-transform: uppercase;
     text-align: left;
 }
 
 .column__header {
     font-family: 'Josefin Sans';
-    font-size: 25px;
-    padding: 10px 0;
-    max-width: 400px;
-    margin-left: 50px;
+    font-size: 36px;
+    padding: 60px 0 30px 0;
+    max-width: 480px;
 } 
 
 .column__paragraph {
     font-family: 'Roboto';
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 400;
     text-align: left;
-    max-width: 400px;
-    margin-left: 50px;
+    max-width: 480px;
 }
 
 .column__link {
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 20px;
+    font-size: 30px;
     text-align: left;
-    margin-left: 50px;
     padding: 20px 0;
 }
 
@@ -56,20 +53,19 @@
     display: inline-block;
     color: #FFFFFF;
     background-color: #CD0000;
-    height: 35px;
-    width: 180px;
-    font-size: 25px;
+    height: 65px;
+    width: 265px;
+    font-size: 32px;
     
 
-    margin-top: 35px;
-    margin-bottom: 20px;
-    margin-left: 20%;
+    margin-top: 90px;
+    margin-bottom: 170px;
     border-style: none;
     border-radius: 5px;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     text-decoration: none;
-    line-height: 40px; /* Тут происходит какая-то магия, если убрать этот параметр то текст в кнопке съезжает. Почему так?*/
+    line-height: 64px; /* Тут происходит какая-то магия, если убрать этот параметр то текст в кнопке съезжает. Почему так?*/
 }
 .blog:hover {
     cursor: pointer;
