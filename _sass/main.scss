@@ -1,18 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Roboto&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .container {
-    width: 80%;
-    max-width: 1000px;
-    margin: 0 auto;
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 body {
-    background-color: white;
-    margin: 0;
-    color: $colorPrimary;
+  background-color: white;
+  margin: 0;
+  color: $colorPrimary;
 }
 .stus-face {
   display: flex;
@@ -24,5 +28,6 @@ body {
   max-height: 900px;
   background-image: url(/assets/images/hero.jpg);
   background-position: bottom center;
+  background-size: cover;
   box-sizing: border-box;
 }

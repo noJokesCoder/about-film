@@ -1,73 +1,82 @@
 .news {
-    width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: "Josefin Sans", sans-serif;
+
+  &__container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
-    font-family: 'Josefin Sans', sans-serif;
+    gap: 32px;
+  }
+  &__container > * {
+    flex-shrink: 2;
+  }
+  &__button-wrapper {
+    text-align: center;
+  }
 }
 .column {
-    float: left;
-    width: 500px;
-    }
+  max-width: 400px;
+}
 
-     .team:after {
-    content: "";
-    display: table;
-    clear: both;
-    } 
+.team:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .container__header {
-    font-family: 'Josefin Sans';
-    font-size: 70px;
-    font-weight: 600;
-    color: #CD0000;
-    padding: 110px 0px 70px 0;
-    text-transform: uppercase;
-    text-align: left;
+  font-family: "Josefin Sans";
+  font-size: 70px;
+  font-weight: 600;
+  color: #cd0000;
+  padding: 30px 0px;
+  text-transform: uppercase;
+  text-align: left;
 }
 
 .column__header {
-    font-family: 'Josefin Sans';
-    font-size: 36px;
-    padding: 60px 0 30px 0;
-    max-width: 480px;
-} 
+  font-family: "Josefin Sans";
+  font-size: 36px;
+  padding: 60px 0 30px 0;
+  max-width: 480px;
+}
 
 .column__paragraph {
-    font-family: 'Roboto';
-    font-size: 30px;
-    font-weight: 400;
-    text-align: left;
-    max-width: 480px;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 400;
+  text-align: left;
+  max-width: 480px;
 }
 
 .column__link {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 30px;
-    text-align: left;
-    padding: 20px 0;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 30px;
+  text-align: left;
+  padding: 20px 0;
 }
 
 .blog {
-    display: inline-block;
-    color: #FFFFFF;
-    background-color: #CD0000;
-    height: 65px;
-    width: 265px;
-    font-size: 32px;
-    
-
-    margin-top: 90px;
-    margin-bottom: 170px;
-    border-style: none;
-    border-radius: 5px;
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
-    text-decoration: none;
-    line-height: 64px; /* Тут происходит какая-то магия, если убрать этот параметр то текст в кнопке съезжает. Почему так?*/
+  display: inline-block;
+  color: #ffffff;
+  background-color: #cd0000;
+  height: 46px;
+  width: 142px;
+  font-size: 22px;
+  margin: 50px, 0;
+  border-style: none;
+  border-radius: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px; /* Тут происходит какая-то магия, если убрать этот параметр то текст в кнопке съезжает. Почему так?*/
 }
 .blog:hover {
-    cursor: pointer;
-    background-color: green;
+  cursor: pointer;
+  background-color: green;
 }
