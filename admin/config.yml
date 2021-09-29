@@ -7,6 +7,6 @@ media_folder: "assets/images"
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "_includes/"
+    folder: "__includes/"
     fields:
       - { name: Title }
