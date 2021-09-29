@@ -5,8 +5,12 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: "assets/images"
 collections:
-  - name: "Stus-Website"
-    label: "Stus-Website"
-    folder: "_includes"
-    fields:
-      - { name: Title }
+  - name: "Sections"
+    label: "Sections"
+    files:
+      - label: "About film"
+        name: "About"
+        file: "_includes/about-film.html"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Content, name: content, widget: markdown }
