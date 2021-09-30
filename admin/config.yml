@@ -10,7 +10,9 @@ collections:
     files:
       - label: "About film"
         name: "About"
-        file: "_includes/about-film.html"
+        file: "_data/about-film.yml"
         fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Content, name: content, widget: markdown }
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Text", name: "paragraph", widget: "markdown" }
+        editor:
+          preview: true
