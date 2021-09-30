@@ -1,0 +1,20 @@
+headline: "НОВИНИ"
+first-card-image: "assets/images/interview.png"
+first-card-headline: "У Києві почалися зйомки художнього фільму «Птах душі» про Василя Стуса"
+first-card-text:
+  "Кінокомпанія UM-GROUP 29 квітня на Хрещатику у Києві офіційно почала
+  знімальний період повнометражного художнього фільму «Птах душі» (робоча
+  назва) про видатного українського поета і політв’язня Василя Стуса."
+first-card-link: "https://stusfilm.com.ua/blog/u-kiyevi-pochalisya-zyomki-hudozhnogo-filmu-ptah-dushi-pro-vasilya-stusa/"
+first-card-link-display: "Більше"
+
+second-card-image: "assets/images/kamera-motor.png"
+second-card-headline: "Кіно у місті: Архітектура, камера, мотор!"
+second-card-text:
+  "Як розвиток кіновиробництва впливає на місто і чи може кіномистецтво
+  стримати стрімку забудівлю Києва, привернути увагу до історичної
+  архітектури?"
+second-card-link: "https://stusfilm.com.ua/blog/kino-u-misti-arhitektura-kamera-motor"
+second-card-link-display: "Більше"
+button-link: "#"
+button-link-display: "БЛОГ"

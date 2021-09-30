@@ -5,7 +5,14 @@
       <p class="about-film__text">{{site.data.about-film.paragraph}}</p>
     </div>
     <div class="about-film__col-image">
-      <img class="about-film__image" src="assets/images/stus-img.jpg" />
+      <!-- <img class="about-film__image" src="assets/images/stus-img.jpg" /> -->
+      {% if site.data.about-film.image %}
+      <img
+        class="about-film__image"
+        src="{{ site.data.about-film.image }}"
+        alt=""
+      />
+      {% endif %}
     </div>
   </div>
 </div>

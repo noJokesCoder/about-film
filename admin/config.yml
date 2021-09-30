@@ -8,11 +8,94 @@ collections:
   - name: "Sections"
     label: "Sections"
     files:
-      - label: "About film"
-        name: "About"
-        file: "_data/about-film.yml"
-        fields:
-          - { label: "Headline", name: "headline", widget: "string" }
-          - { label: "Text", name: "paragraph", widget: "markdown" }
-        editor:
-          preview: true
+  - label: "About film"
+    name: "About"
+    file: "_data/about-film.yml"
+    fields:
+      - { label: "Headline", name: "headline", widget: "string" }
+      - { label: "Text", name: "paragraph", widget: "string" }
+      - {
+          label: "Image",
+          name: "image",
+          widget: "image",
+          choose_url: false,
+          allow_multiple: false
+        }
+    editor:
+      preview: true
+  - label: "Navigation buttons"
+    name: "Nav"
+    file: "_data/stus-face-and-navigation.yml"
+    fields:
+      - { label: "Button-left", name: "button-left", widget: "string" }
+      - {
+          label: "Button Left Link",
+          name: "button-left-link",
+          widget: "string"
+        }
+      - { label: "Button-right", name: "button-right", widget: "string" }
+      - {
+          label: "Button Right Link",
+          name: "button-right-link",
+          widget: "string"
+        }
+  - label: "Footer"
+    name: "Footer"
+    file: "_data/footer.yml"
+    fields:
+      - { label: "Headline", name: "headline", widget: "string" }
+      - { label: "Email-in-link", name: "email", widget: "string" }
+      - { label: "Email-displayed", name: "email_display", widget: "string" }
+    editor:
+    preview: true
+  - label: "News"
+    name: "News"
+    file: "_data/news.yml"
+    fields:
+      - { label: "Headline", name: "headline", widget: "string" }
+      - {
+          label: "1st card image",
+          name: "first-card-image",
+          widget: "image",
+          choose_url: false,
+          allow_multiple: false
+        }
+      - {
+          label: "1st card header",
+          name: "first-card-headline",
+          widget: "string"
+        }
+      - { label: "1st card text", name: "first-card-text", widget: "string" }
+      - { label: "1st card link", name: "first-card-link", widget: "string" }
+      - {
+          label: "1st card link-display",
+          name: "first-card-link-display",
+          widget: "string"
+        }
+      - {
+          label: "2nd card image",
+          name: "second-card-image",
+          widget: "image",
+          choose_url: false,
+          allow_multiple: false
+        }
+      - {
+          label: "2nd card header",
+          name: "second-card-headline",
+          widget: "string"
+        }
+      - { label: "2nd card text", name: "second-card-text", widget: "string" }
+      - { label: "2nd card link", name: "second-card-link", widget: "string" }
+      - {
+          label: "2nd card link-display",
+          name: "second-card-link-display",
+          widget: "string"
+        }
+      - { label: "Button Link", name: "button-link", widget: "string" }
+      - {
+          label: "Button display",
+          name: "button-link-display",
+          widget: "string"
+        }
+    editor:
+      preview: true
