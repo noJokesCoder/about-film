@@ -39,7 +39,7 @@ collections:
           name: "button-right-link",
           widget: "string"
         }
-       - label: "Footer"
+     - label: "Footer"
          name: "Footer"
          file: "_data/footer.yml"
         fields:
