@@ -5,7 +5,7 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: "assets/images"
 collections:
-- name: "Sections"
+ - name: "Sections"
     label: "Sections"
     files:
      - label: "About film"
