@@ -2,5 +2,6 @@ _site/*
 .git
 .DS_Store
 .idea
-.jekyll-cache/*
+.jekyll-cache
 */.DS_Store
+_includes/design-system
