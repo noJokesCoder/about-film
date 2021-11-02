@@ -39,3 +39,15 @@
 
   color: #ffffff;
 }
+
+@media screen and (max-width: 414px) {
+  .footer {
+    margin: 0;
+    p {
+      font-size: 0.6rem;
+    }
+  }
+  .email {
+    font-size: 1rem;
+  }
+}

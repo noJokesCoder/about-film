@@ -62,3 +62,25 @@
   text-align: left;
   margin-left: 20%;
 }
+@media screen and (max-width: 414px) {
+  .team__header {
+    font-size: 36px;
+    padding-bottom: 1rem;
+  }
+  .proffession {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  .team__card {
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .team__card-col:nth-child(odd) {
+    margin-left: 0;
+  }
+  .team__card-col:nth-child(even) {
+    justify-content: flex-end;
+    text-align: left;
+    margin-left: 0;
+  }
+}

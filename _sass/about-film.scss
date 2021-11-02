@@ -28,3 +28,16 @@
 img {
   max-width: 100%;
 }
+
+@media screen and (max-width: 414px) {
+  .about-film__headline {
+    font-size: 36px;
+  }
+  .about-film__text {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .about-film__col-text {
+    width: 80%;
+  }
+}

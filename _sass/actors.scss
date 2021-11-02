@@ -66,3 +66,44 @@
     color: #ffffff;
   }
 }
+@media screen and (max-width: 414px) {
+  .actors__headline {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  .actors__card {
+    justify-content: space-between;
+    margin-bottom: 24px;
+
+    &-col-image {
+      width: 40%;
+    }
+
+    &-col-content {
+      margin-left: 10px;
+      width: 60%;
+    }
+  }
+  .actors__card:nth-child(even) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    .actors__card-col-content {
+      margin-left: 10px;
+    }
+  }
+  .actors__card-col-content > h3 {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  .actors__card-image {
+    border-radius: 50%;
+    max-width: 120px;
+  }
+  .actors p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .actors__wrapper {
+    padding: 20px;
+  }
+}

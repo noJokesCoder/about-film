@@ -9,7 +9,7 @@
 
 | Device | Optimized for the specified device |
 | ------ | ------ |
-| **Mobile** | ❌  NO  |
+| **Mobile** | ✅ YES  |
 | **Tablet** | ✅ YES  |
 | **Desktop** | ✅ YES |
 
